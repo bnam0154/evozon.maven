@@ -67,8 +67,5 @@ public class CreateNewAccountPage extends PageObject {
         return welcomeMessageParagraph.getText().contains(message);
     }
 
-//    public void refreshPage() {
-//
-//    } ???/
 
 }

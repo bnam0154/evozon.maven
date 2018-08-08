@@ -30,14 +30,7 @@ public class AddToCartTest extends BaseTest {
         addToCartSteps.clickAddButton();
         addToCartSteps.verifyAddToCartButton(); // < -- verify
 
-//        addToCartSteps.addProductToCart();
-//        baseNavigateBack();
-//        addToCartSteps.addElementsToCartFromWomanNewArrivalsPage();
-//        baseNavigateBack();
-//        baseNavigateBack();
-//        addToCartSteps.addElementsToCartFromTopAndBlousesPage();
-//        addToCartSteps.openCartPage();
-//        addToCartSteps.verifyCartIsEmpty();
+
     }
 
 }
