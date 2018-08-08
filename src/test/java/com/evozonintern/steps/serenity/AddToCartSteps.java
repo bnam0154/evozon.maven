@@ -14,7 +14,7 @@ import static junit.framework.TestCase.assertTrue;
 public class AddToCartSteps extends ScenarioSteps {
 
     private CartPage cartPage;
-    private ShoppingCartPage shoppingCartPage;
+
 
 
     private HeaderPage headerPage;
