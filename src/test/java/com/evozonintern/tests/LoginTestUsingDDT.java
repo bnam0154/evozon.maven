@@ -20,9 +20,11 @@ public class LoginTestUsingDDT extends BaseTest {
 
     @Test
     public void loginTest() {
+
         loginUserSteps.openPage();
         loginUserSteps.login(email,password);
         loginUserSteps.validateSuccesfullLogin();
+
     }
 
 

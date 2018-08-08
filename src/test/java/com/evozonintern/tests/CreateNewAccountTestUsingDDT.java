@@ -39,7 +39,7 @@ public class CreateNewAccountTestUsingDDT extends BaseTest {
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
 
-        //createNewAccountSteps.verifyIsCreated(firstName);
+        //createNewAccountSteps.verifyIsCreated(firstName); todo verify uder reconstruction :)
     }
 
 }
