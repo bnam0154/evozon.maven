@@ -1,5 +1,7 @@
 package com.evozonintern.steps.serenity;
 
+import com.evozonintern.Entitys.User;
+import com.evozonintern.Factorys.UserFactory;
 import com.evozonintern.pages.LoginPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
@@ -21,16 +23,27 @@ public class LoginUserSteps extends ScenarioSteps {
 
     @Step //metoda generala
     public void login() {
-        loginPage.setEmailField("test@yahoo.com");
-        loginPage.setPasswordField("parola11");
+
+        User user = UserFactory.generateUser();
+
+        loginPage.setEmailField(user.getEmail());
+        loginPage.setPasswordField(user.getPassword());
         loginPage.clickLogin();
         
     }
 
-    @Step //metoda granulata
+    @Step
     public void login(String email,String pass) {
         loginPage.setEmailField(email);
         loginPage.setPasswordField(pass);
+        loginPage.clickLogin();
+    }
+
+
+    @Step
+    public void login(User user) {
+        loginPage.setEmailField(user.getEmail());
+        loginPage.setPasswordField(user.getPassword());
         loginPage.clickLogin();
     }
 

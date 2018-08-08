@@ -21,6 +21,7 @@ public class CreateNewAccountTestUsingDDT extends BaseTest {
 
     @Test
     public void registerWithValidCredentials () {
+
         createNewAccountSteps.openPage();
         createNewAccountSteps.setFirsName(firstName);
         createNewAccountSteps.setMiddleName(middleName);
@@ -30,6 +31,7 @@ public class CreateNewAccountTestUsingDDT extends BaseTest {
         createNewAccountSteps.setPassConf(pass);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
     }
 
 }

@@ -1,5 +1,7 @@
 package com.evozonintern.steps.serenity;
 
+import com.evozonintern.Entitys.User;
+import com.evozonintern.Factorys.UserFactory;
 import com.evozonintern.pages.CreateNewAccountPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.annotations.Steps;
@@ -57,14 +59,32 @@ public class CreateNewAccountSteps extends ScenarioSteps {
 
     @Step //general
     public void createNewAccount() {
-        createNewAccountPage.setFirstName("Ana");
-        createNewAccountPage.setMiddleName("Maria");
-        createNewAccountPage.setLastName("Maria");
-        createNewAccountPage.setEmailField("AnaMaria@yahoo.com");
-        createNewAccountPage.setPassField("parola11");
-        createNewAccountPage.setPassConField("parola11");
+
+        User user = UserFactory.generateUser();
+
+        createNewAccountPage.setFirstName(user.getFirstname());
+        createNewAccountPage.setMiddleName(user.getMiddlename());
+        createNewAccountPage.setLastName(user.getLastname());
+        createNewAccountPage.setEmailField(user.getEmail());
+        createNewAccountPage.setPassField(user.getPassword());
+        createNewAccountPage.setPassConField(user.getPassword());
         createNewAccountPage.clickcheckBox();
         createNewAccountPage.submitregisterButton();
+    }
+
+
+    @Step //general
+    public void createNewAccount(User user) {
+
+        createNewAccountPage.setFirstName(user.getFirstname());
+        createNewAccountPage.setMiddleName(user.getMiddlename());
+        createNewAccountPage.setLastName(user.getLastname());
+        createNewAccountPage.setEmailField(user.getEmail());
+        createNewAccountPage.setPassField(user.getPassword());
+        createNewAccountPage.setPassConField(user.getPassword());
+        createNewAccountPage.clickcheckBox();
+        createNewAccountPage.submitregisterButton();
+
     }
 
 
