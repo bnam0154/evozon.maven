@@ -29,7 +29,7 @@ public class CreateNewAccountTest extends BaseTest {
     private String passTooShort = "p";
     private String passConfTooShort = "p";
     private String passConfNotMatching = "p";
-
+    private String pageTitle = "CREATE AN ACCOUNT";
     @Steps
     CreateNewAccountSteps createNewAccountSteps;
 
@@ -44,13 +44,16 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
-        //Assert.assertTrue(accountPage.isLoggedIn(firsName));
+
+        createNewAccountSteps.verifyIsCreated(firsName);
     }
 
     @Test
     public void registerWithBlankCredentials () {
         createNewAccountSteps.openPage();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
     }
 
     @Test
@@ -64,6 +67,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
     }
 
     @Test
@@ -77,6 +82,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsCreated(firsName);
     }
 
     @Test
@@ -90,6 +97,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
     }
 
     @Test
@@ -103,6 +112,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
     }
 
     @Test
@@ -116,6 +127,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
     }
 
     @Test
@@ -129,6 +142,8 @@ public class CreateNewAccountTest extends BaseTest {
         //createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
     }
 
     @Test
@@ -142,6 +157,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         //createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsCreated(firsName);
     }
 
     @Test
@@ -155,7 +172,9 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         //createNewAccountSteps.submitregisterButton();
-    }
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
+}
 
     @Test
     public void registerWithInvalidEmailCredentials () {
@@ -168,6 +187,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
         // =========================================
         this.refreshPage();
         createNewAccountSteps.openPage();
@@ -179,6 +200,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
         // =========================================
         this.refreshPage();
         createNewAccountSteps.openPage();
@@ -190,6 +213,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
         // =========================================
         this.refreshPage();
         createNewAccountSteps.openPage();
@@ -201,6 +226,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
         // =========================================
         this.refreshPage();
         createNewAccountSteps.openPage();
@@ -212,6 +239,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConf);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
         // ========================================= /
 
     }
@@ -227,6 +256,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConfTooShort);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
     }
 
     @Test
@@ -240,6 +271,8 @@ public class CreateNewAccountTest extends BaseTest {
         createNewAccountSteps.setPassConf(passConfNotMatching);
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
+
+        createNewAccountSteps.verifyIsNotCreated(pageTitle);
     }
 
 }

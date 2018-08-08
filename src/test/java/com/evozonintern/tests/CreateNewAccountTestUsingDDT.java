@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 import static com.evozonintern.utils.Constants.CSV_FILE_PATH;
 
 @RunWith(SerenityParameterizedRunner.class)
-@UseTestDataFrom(value = CSV_FILE_PATH + "a.csv", separator = ',')
+@UseTestDataFrom(value = CSV_FILE_PATH + "CreateNewAccountTestDataFile.csv", separator = ',')
 public class CreateNewAccountTestUsingDDT extends BaseTest {
 
     @Steps

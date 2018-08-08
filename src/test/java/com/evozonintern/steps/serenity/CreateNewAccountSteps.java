@@ -2,14 +2,17 @@ package com.evozonintern.steps.serenity;
 
 import com.evozonintern.Entitys.User;
 import com.evozonintern.Factorys.UserFactory;
+import com.evozonintern.pages.AccountPage;
 import com.evozonintern.pages.CreateNewAccountPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.steps.ScenarioSteps;
+import org.junit.Assert;
 
 public class CreateNewAccountSteps extends ScenarioSteps {
 
     private CreateNewAccountPage createNewAccountPage;
+    private AccountPage accountPage = new AccountPage();
 
     @Step
     public void openPage() {
@@ -87,5 +90,19 @@ public class CreateNewAccountSteps extends ScenarioSteps {
 
     }
 
+    @Step
+    public void verifyIsCreated(User user) {
+        Assert.assertTrue(accountPage.isLoggedIn(user.getFirstname()));
+    }
+
+    @Step
+    public void verifyIsCreated(String name) {
+        Assert.assertTrue(accountPage.isLoggedIn(name));
+    }
+
+    @Step
+    public void verifyIsNotCreated(String title) {
+        Assert.assertTrue(accountPage.isNotLoggedIn(title));
+    }
 
 }
