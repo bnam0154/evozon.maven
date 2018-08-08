@@ -1,6 +1,8 @@
 package com.evozonintern.tests;
 
+import com.evozonintern.pages.AdminDeleteAllUsers;
 import com.evozonintern.steps.serenity.CreateNewAccountSteps;
+import com.evozonintern.steps.serenity.DeleteusersSteps;
 import com.evozonintern.utils.BaseTest;
 import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
 import net.thucydides.core.annotations.Steps;
@@ -18,9 +20,14 @@ public class CreateNewAccountTestUsingDDT extends BaseTest {
     CreateNewAccountSteps createNewAccountSteps;
     String firstName, lastName, middleName, email, pass;
 
+    @Steps
+    DeleteusersSteps deleteusersSteps;
 
     @Test
     public void registerWithValidCredentials () {
+
+        //deleteusersSteps.openPage();
+
 
         createNewAccountSteps.openPage();
         createNewAccountSteps.setFirsName(firstName);
@@ -32,6 +39,7 @@ public class CreateNewAccountTestUsingDDT extends BaseTest {
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
 
+        //createNewAccountSteps.verifyIsCreated(firstName);
     }
 
 }
