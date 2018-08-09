@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.evozonintern.tests.CreateNewAccountTest" skipped="0" tests="1" time="15.24" timestamp="2018-08-09T12:05:40.098742300+03:00[Europe/Athens]"><testcase classname="com.evozonintern.tests.CreateNewAccountTest" name="Register with not mathching pass and confpass"/></testsuite>

@@ -57,8 +57,7 @@ public class AddToCartSteps extends ScenarioSteps {
 
         List<WebElement> messagelinks = getDriver().findElements(By.cssSelector(".success-msg"));
         Assert.assertFalse("!!! Failed at add to cart button click !!!",messagelinks.isEmpty());
-
-
+        
     }
 
 
