@@ -17,6 +17,8 @@ public class AddToCartTest extends BaseTest {
 
     @Test
     public void addToCartItems() throws InterruptedException {
+
+        //am reusit un merge
         addToCartSteps.openCartPage();
         addToCartSteps.verifyCartIsEmpty();
         addToCartSteps.navigateStep("Accessories", "Jewelry");
