@@ -18,7 +18,6 @@ public class AddToCartTest extends BaseTest {
     @Test
     public void addToCartItems() throws InterruptedException {
 
-
         addToCartSteps.openCartPage();
         addToCartSteps.verifyCartIsEmpty();
         addToCartSteps.navigateStep("Accessories", "Jewelry");
@@ -28,10 +27,7 @@ public class AddToCartTest extends BaseTest {
         addToCartSteps.navigateStep("Men","Blazers");
         addToCartSteps.openProduct("Stretch Cotton Blazer");
         addToCartSteps.clickAddButton();
-        //addToCartSteps.verifyAddToCartButton(); // < -- verify
-        addToCartSteps.verifyAddToCartButton(); // < -- verify
-
-
+        addToCartSteps.verifyAddToCartButton();
 
     }
 
