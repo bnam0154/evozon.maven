@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="7d2de9b69d1d94b30221ac7a82ed3ea6fbdf83e2167b5b3c3ffae6f74b5dab8e.html">Create New Account Test Using DDT</a></span>
+                > <span class="truncate-60"><a
+                    href="d81791e1d235ca2626437cea3f569fa8bc20383de288dff91c72ab2c0872d576.html">Register with valid credentials </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-08-2018 16:48</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create New Account Test Using DDT</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register with valid credentials
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Open page<br>Open page<br>Set firs name: &lt;firstName&gt;<br>Set middle name: &lt;middleName&gt;<br>Set last name: &lt;lastName&gt;<br>Set email: &lt;email&gt;<br>Set pass: &lt;pass&gt;<br>Set pass conf: &lt;pass&gt;<br>Clickcheck box<br>Submitregister button</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="751e06de0a3eb1113d59c58d776b52252e5e5ce2db98825ff4fb5d191dc0cec4.png" title="Open page" width="960"/>
+                <img src="scaled_7fd53fc0548378f3cb898df657a6ebb9dc90ffee5c355418d766e6b58fe35230.png" title="Open page" width="960"/>
+                <img src="scaled_94a77d7b9d88361ef88fab6019db885e4a33d5a3efeae2dc1e28c49a76d4eae7.png" title="Open page" width="960"/>
+                <img src="eacb6687d304c86f29e799c1006f7dc1bac10746c3b7b6e377c3ba3ae55246c6.png" title="Open page" width="960"/>
+                <img src="c8594c25ad190769b80af7c8c70c91d18d8f6bfda0532322b918caae105baa23.png" title="Set firs name: Drake" width="960"/>
+                <img src="efb09bafdeb42f9496570de5b38a691cf64a01075f54e5075527d3a513c5164f.png" title="Set firs name: Drake" width="960"/>
+                <img src="496841ce27bcc30c1fa1ea43bef23fb187faa240529881c8f16783edf47c1665.png" title="Set middle name: Joshua" width="960"/>
+                <img src="7b9ff3f0484bd62b72f80eb4ce85b227e19ce4f2c5ca42c8b9527e2d4f2db3b2.png" title="Set last name: James" width="960"/>
+                <img src="8b5d92ee1a53c912e87b900a95d9e7269a2af173a65b03022326a79780786a3e.png" title="Set last name: James" width="960"/>
+                <img src="9c3d2c97ce2aaae9bc8222f7704cc837308f5cd06a21bf817c64eab87358c843.png" title="Set email: congue.In.scelerisque@lacusAliquam.com" width="960"/>
+                <img src="184589b7f20eeb98f82a1d9eabfbf996672dc5a70c51404fc2612211dcea4d54.png" title="Set email: congue.In.scelerisque@lacusAliquam.com" width="960"/>
+                <img src="8d5ac07c280c08bd98365baa9d7c139d6d4f899f2d9f5cef1d64f44f1e6dace3.png" title="Set pass: lectus" width="960"/>
+                <img src="25e80dc6bf318518def1c49f330e0ef20f0ba33ac24c923fc45eb7fe1e2766f3.png" title="Set pass conf: lectus" width="960"/>
+                <img src="909151d4dbafbf62bb2ae3568164ff47923e6a01beedd552bf15471ec35386f0.png" title="Set pass conf: lectus" width="960"/>
+                <img src="34679e8f1a2e9c7f15130e0bcc5ea39c3078660bb0b0c9e30b5f30664e67b50a.png" title="Clickcheck box" width="960"/>
+                <img src="8608babb730a3fa9d10f06749dcbfb40c440f94981337d0bce6d2880879506be.png" title="Clickcheck box" width="960"/>
+                <img src="787502741098913eaf469159c2a7fc0e24daf7db8a8e4ce81f6d2595a810ecfa.png" title="Submitregister button" width="960"/>
+                <img src="751e06de0a3eb1113d59c58d776b52252e5e5ce2db98825ff4fb5d191dc0cec4.png" title="Open page" width="960"/>
+                <img src="7fd53fc0548378f3cb898df657a6ebb9dc90ffee5c355418d766e6b58fe35230.png" title="Open page" width="960"/>
+                <img src="94a77d7b9d88361ef88fab6019db885e4a33d5a3efeae2dc1e28c49a76d4eae7.png" title="Open page" width="960"/>
+                <img src="eacb6687d304c86f29e799c1006f7dc1bac10746c3b7b6e377c3ba3ae55246c6.png" title="Open page" width="960"/>
+                <img src="c8594c25ad190769b80af7c8c70c91d18d8f6bfda0532322b918caae105baa23.png" title="Set firs name: Lamar" width="960"/>
+                <img src="93447dc821cd9a9ad0672577e66bb16f144c2cc9238a12b80fc405672bc216bb.png" title="Set firs name: Lamar" width="960"/>
+                <img src="03b2046b3526bb8770091a6ded34c1801dbd9462baa3588fa03be2bb9bf1c787.png" title="Set middle name: Graham" width="960"/>
+                <img src="36c901bbff4d19e8932da89c5b159b910d74ebb175d61226978df0fd7b74f908.png" title="Set middle name: Graham" width="960"/>
+                <img src="df081a906076229e91cc5ab627d3adfa065f7f33e9d243bd0274be0f37d0f09f.png" title="Set last name: Hector" width="960"/>
+                <img src="667fa97dbe9d96522185fb1a908c5c38919446f1d184f6bbe57c09ca7b1cf915.png" title="Set email: nulla.Integer@liberodui.ca" width="960"/>
+                <img src="082dbfbae8128d63a9996b9d42fd338af49041c2220e12f9a0a2819000aaef51.png" title="Set email: nulla.Integer@liberodui.ca" width="960"/>
+                <img src="a6551a4ffd1d35c907ef03a4f6497f098313216c59e45322253657160749d201.png" title="Set pass: a" width="960"/>
+                <img src="dad4f81c838f18c3827510865e9fac7e02b99d20dc9ee887999d3fa514ba74cc.png" title="Set pass conf: a" width="960"/>
+                <img src="91cdb86e61015dc8bc1931df078218b496842ebef2132f713ef2af31d75779bc.png" title="Clickcheck box" width="960"/>
+                <img src="da2a251b145a457119b644e6a9b325a863f0f2accb7c9634dc0ed79e4b718d77.png" title="Clickcheck box" width="960"/>
+                <img src="ea88a986980b492bb73734cb18ac4b599de20f5c42be695f953535e7030626fa.png" title="Submitregister button" width="960"/>
+                <img src="751e06de0a3eb1113d59c58d776b52252e5e5ce2db98825ff4fb5d191dc0cec4.png" title="Open page" width="960"/>
+                <img src="7fd53fc0548378f3cb898df657a6ebb9dc90ffee5c355418d766e6b58fe35230.png" title="Open page" width="960"/>
+                <img src="94a77d7b9d88361ef88fab6019db885e4a33d5a3efeae2dc1e28c49a76d4eae7.png" title="Open page" width="960"/>
+                <img src="eacb6687d304c86f29e799c1006f7dc1bac10746c3b7b6e377c3ba3ae55246c6.png" title="Open page" width="960"/>
+                <img src="c8594c25ad190769b80af7c8c70c91d18d8f6bfda0532322b918caae105baa23.png" title="Set firs name: Gareth" width="960"/>
+                <img src="7b175ad773d6d26cf205589b51a1947165a69e1ca7bb8917a44ade809d0eae5a.png" title="Set firs name: Gareth" width="960"/>
+                <img src="05cc021649570cda1533ad6529ef3699b614405364dbcf864aa20dbee6ef36bd.png" title="Set middle name: Clarke" width="960"/>
+                <img src="9aedc8c708048e25a85f5fedfa0ae14e4e893d74196974ef1f9edc30d947d9ef.png" title="Set middle name: Clarke" width="960"/>
+                <img src="29c25b866161916a2e4726bf586a7dea2f14bcb70af1e8846d946c223f1e2962.png" title="Set last name: Ferris" width="960"/>
+                <img src="81b2c3514ad6c9d72aa4b70541191edf0e448b12b570c8add8cad77cccbc74da.png" title="Set last name: Ferris" width="960"/>
+                <img src="34f2cf2e3fcb76e1a20d3d510ebea2388f897489b5c14a3c5032b336f1586b2f.png" title="Set email: dictum.augue.malesuada@Praesenteu.com" width="960"/>
+                <img src="7dcf189027150d2603cd300ab44d9bd8a3b2643f69578f81104cc3d452a5306e.png" title="Set email: dictum.augue.malesuada@Praesenteu.com" width="960"/>
+                <img src="5f0c5eb7452f6fb6ef8ec8d0d8e6d5148b12082bd2dd6232a499db17e2ca3bc2.png" title="Set pass: lorem," width="960"/>
+                <img src="3d21dc15579090e9a98fbb4f6d1672dd279778acbb539bc48ce6105b0f7bd081.png" title="Set pass: lorem," width="960"/>
+                <img src="c69c08c9ea0fba5e999e9c57bc3b386db480c564e934792e22a90fd617768f7b.png" title="Set pass conf: lorem," width="960"/>
+                <img src="63bf6c010a655c6db15c43180ae612e360a4d3398d5255da40ee11493a9b6798.png" title="Clickcheck box" width="960"/>
+                <img src="ab08d1a18225a5231dc2124ccdbeee0222f8f4d62da5650623420e3610f8c7af.png" title="Submitregister button" width="960"/>
+                <img src="751e06de0a3eb1113d59c58d776b52252e5e5ce2db98825ff4fb5d191dc0cec4.png" title="Open page" width="960"/>
+                <img src="7fd53fc0548378f3cb898df657a6ebb9dc90ffee5c355418d766e6b58fe35230.png" title="Open page" width="960"/>
+                <img src="94a77d7b9d88361ef88fab6019db885e4a33d5a3efeae2dc1e28c49a76d4eae7.png" title="Open page" width="960"/>
+                <img src="eacb6687d304c86f29e799c1006f7dc1bac10746c3b7b6e377c3ba3ae55246c6.png" title="Open page" width="960"/>
+                <img src="c8594c25ad190769b80af7c8c70c91d18d8f6bfda0532322b918caae105baa23.png" title="Set firs name: Aquila" width="960"/>
+                <img src="b241d86f8df62fa73f7f3402e3048d95b4a5bffa2aab186f5c849552d3d9eb04.png" title="Set firs name: Aquila" width="960"/>
+                <img src="2f365a31c08ae29447fc52f2cd4f89801e511b56ce24360aeda1cd4b970626b9.png" title="Set middle name: Branden" width="960"/>
+                <img src="daf31e1237f14b7ef368e66be8521f2e4cad73b6303df01e762b6bf5f77d9923.png" title="Set last name: Nissim" width="960"/>
+                <img src="37a8e61dabf2841dee5b8bb3011dd63ca11f0fc2ce774260d9a189de302db1ee.png" title="Set email: molestie.orci.tincidunt@nonluctussit.ca" width="960"/>
+                <img src="923d7910b0010413c4cdc4f583e4dd9d5ba4f2a0863a36688c7bf5b158033cae.png" title="Set pass: volutpat" width="960"/>
+                <img src="b5cf10e2b38ff0de476f9741a493cd0e3895d104c9f55e2c0b76c34a358ab04e.png" title="Set pass: volutpat" width="960"/>
+                <img src="e6d0738dd53acef65839c60dd93fc2f182d44352f8dd5891344614b654f0dedd.png" title="Set pass conf: volutpat" width="960"/>
+                <img src="1903a592cb299b3ca9867d7900c4744ea597de45e44b97a44cf84bf8133183b1.png" title="Set pass conf: volutpat" width="960"/>
+                <img src="8c6a8c951a70e4eb680a4a5b61fcbbf58b41b0dd869ff6eb4867e024e743f903.png" title="Clickcheck box" width="960"/>
+                <img src="e758e5e621a1ad0db28a0bdb7be236d9428bc6ec9c1e6eaf0b44604c8f0af8e7.png" title="Submitregister button" width="960"/>
+                <img src="751e06de0a3eb1113d59c58d776b52252e5e5ce2db98825ff4fb5d191dc0cec4.png" title="Open page" width="960"/>
+                <img src="7fd53fc0548378f3cb898df657a6ebb9dc90ffee5c355418d766e6b58fe35230.png" title="Open page" width="960"/>
+                <img src="94a77d7b9d88361ef88fab6019db885e4a33d5a3efeae2dc1e28c49a76d4eae7.png" title="Open page" width="960"/>
+                <img src="eacb6687d304c86f29e799c1006f7dc1bac10746c3b7b6e377c3ba3ae55246c6.png" title="Open page" width="960"/>
+                <img src="c8594c25ad190769b80af7c8c70c91d18d8f6bfda0532322b918caae105baa23.png" title="Set firs name: Dean" width="960"/>
+                <img src="c5e0d90cd5fe2f6688fd4419a7a53e848c23d3098534e3c95f95ef178ef960b8.png" title="Set firs name: Dean" width="960"/>
+                <img src="2cbe892dc4ab95aa5c75a31877302bcf2f03100148e4d10825cf7157705b2d12.png" title="Set middle name: Guy" width="960"/>
+                <img src="d781ffb2d9b063527176812f2149345320a2c099757385f64b4d6a50e70674d0.png" title="Set middle name: Guy" width="960"/>
+                <img src="scaled_2770685bbb6d90471a7dd550404fd29920a4afedd4cf163b0f93132acee8028d.png" title="Set last name: Melvin" width="960"/>
+                <img src="7613ae87357750f5a84e2045a9f6c6f6e011157951d2a96f3a8733cd2e862b30.png" title="Set last name: Melvin" width="960"/>
+                <img src="eca8ae0c7719ea0b0a9d70fe7025002501ee031ed9a2f242e435689790631fb8.png" title="Set email: Fusce@egetmetus.net" width="960"/>
+                <img src="6231ffcefd59743dde3a46e81bc7ee39c6de71d1d38868a0895a22d188ce1632.png" title="Set pass: mus." width="960"/>
+                <img src="59fb4e16b9b93b10585495ab4733d2fee1c6602a275d79c3bd8a2c5b233cfc1b.png" title="Set pass: mus." width="960"/>
+                <img src="4784fdc53fea9e9e79d68927b99dce0bb5323a46e7b4b1dcc1c98dfce1e49f38.png" title="Set pass conf: mus." width="960"/>
+                <img src="b0b4e796ed4d55f0dae1d9630a8b395e8d931e72fc0043c97fa649881c2ee90d.png" title="Set pass conf: mus." width="960"/>
+                <img src="c22f4cf0f3ae9bce6bbfdf150fa5481c2d921819b4e173a780726697d234b787.png" title="Clickcheck box" width="960"/>
+                <img src="c8f1a2603015ec09f5700b6e5134d805a0e4e87150fdc87f17c6ce6d4f2019d4.png" title="Clickcheck box" width="960"/>
+                <img src="scaled_d8d753d516b034a8765da58a32e5336db21b1bbb9a91818d3ea5a54ba06a7a41.png" title="Submitregister button: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>
