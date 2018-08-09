@@ -32,9 +32,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="java" value="6" />
 =======
           <entry key="java" value="70" />
+>>>>>>> addToCartSteps
+=======
+          <entry key="java" value="91" />
 >>>>>>> addToCartSteps
           <entry key="txt" value="30" />
         </counts>
@@ -42,9 +46,13 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="JAVA" value="6" />
 =======
           <entry key="JAVA" value="70" />
+>>>>>>> addToCartSteps
+=======
+          <entry key="JAVA" value="91" />
 >>>>>>> addToCartSteps
           <entry key="PLAIN_TEXT" value="30" />
         </counts>
@@ -66,11 +74,16 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="528">
               <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
 =======
             <state relative-caret-position="506">
               <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+>>>>>>> addToCartSteps
+=======
+            <state relative-caret-position="528">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
 >>>>>>> addToCartSteps
             </state>
           </provider>
@@ -335,11 +348,16 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="528">
           <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
 =======
         <state relative-caret-position="506">
           <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+>>>>>>> addToCartSteps
+=======
+        <state relative-caret-position="528">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
 >>>>>>> addToCartSteps
         </state>
       </provider>
