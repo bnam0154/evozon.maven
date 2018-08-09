@@ -5,7 +5,7 @@
     <list default="true" id="f65d3463-e6e2-496b-84bb-06c15647feec" name="Default Changelist" comment="" />
 =======
     <list default="true" id="23b54bc0-fcd4-4b17-8e2e-126b905a727e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/evozonintern/pages/ProductsListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/evozonintern/pages/ProductsListPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,16 +27,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           <entry key="java" value="6" />
@@ -46,11 +47,15 @@
 =======
           <entry key="java" value="91" />
 >>>>>>> addToCartSteps
+=======
+          <entry key="java" value="95" />
+>>>>>>> addToCartPage
           <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           <entry key="JAVA" value="6" />
@@ -60,6 +65,9 @@
 =======
           <entry key="JAVA" value="91" />
 >>>>>>> addToCartSteps
+=======
+          <entry key="JAVA" value="95" />
+>>>>>>> addToCartPage
           <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
@@ -77,13 +85,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
             <state relative-caret-position="550">
               <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="528">
@@ -96,6 +105,31 @@
             <state relative-caret-position="528">
               <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
 >>>>>>> addToCartSteps
+<<<<<<< HEAD
+>>>>>>> addToCartTest
+=======
+=======
+            <state relative-caret-position="616">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/pages/AccountPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/pages/ProductsListPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+>>>>>>> addToCartPage
 >>>>>>> addToCartTest
             </state>
           </provider>
@@ -110,6 +144,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/evozonintern/pages/ProductsListPage.java" />
       </list>
     </option>
   </component>
@@ -322,6 +357,7 @@
     <editor active="true" />
     <layout>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
@@ -335,6 +371,9 @@
       <window_info anchor="bottom" id="Messages" />
 =======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+>>>>>>> addToCartTest
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -372,7 +411,7 @@
 =======
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.13991323" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.13991323" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -408,6 +447,7 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="528">
           <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
 =======
@@ -418,6 +458,27 @@
         <state relative-caret-position="528">
           <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
 >>>>>>> addToCartSteps
+<<<<<<< HEAD
+>>>>>>> addToCartTest
+=======
+=======
+        <state relative-caret-position="616">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/pages/AccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/pages/ProductsListPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+>>>>>>> addToCartPage
 >>>>>>> addToCartTest
         </state>
       </provider>
