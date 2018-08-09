@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0e1f2e60a766dbee45cec6914e73489e2bc132a37fed7ac8d3f933182b1058b0.html">Create New Account Test</a></span>
+                > <span class="truncate-60"><a
+                    href="a1c143a79a237d712f43708e505f3b5ffc00fed63f6334448d5cc7c97d500868.html">Register with not mathching pass and confpass </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-08-2018 16:28</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create New Account Test</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register with not mathching pass and confpass
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_81fceeec87b090afc400cf70ab8d3b14c793ce7e1e0fdc6c468d644e395fbae8.png" title="Open page" width="960"/>
+                <img src="eacb6687d304c86f29e799c1006f7dc1bac10746c3b7b6e377c3ba3ae55246c6.png" title="Open page" width="960"/>
+                <img src="c8594c25ad190769b80af7c8c70c91d18d8f6bfda0532322b918caae105baa23.png" title="Set firs name: Consuelo" width="960"/>
+                <img src="scaled_5f4fef76121287be8d45f7cc585955a1a044cc973671a73bc1c8c79a4a841369.png" title="Set firs name: Consuelo" width="960"/>
+                <img src="scaled_6e8996795259ca83a65b6697dff46ef70e783760a6e949a1391b2fc19d8e3e64.png" title="Set middle name: Eliezer" width="960"/>
+                <img src="scaled_8bf2dae5c4852427840e0369729c3530dd8b128eef96c927fe3179a14ac3db5c.png" title="Set last name: Turner" width="960"/>
+                <img src="scaled_3b21e804e6b02967f8c8fef4955e8a9133fcb8972c673a3d49af2dbe021d0182.png" title="Set email: Osborne@gmail.com" width="960"/>
+                <img src="scaled_26b49732ed15dc73b0efc602bf3bfb8e3d04b3aa1c9269a1ebd22450ef0fd002.png" title="Set email: Osborne@gmail.com" width="960"/>
+                <img src="scaled_1b74b65ca79305c17441176151ffb2b3725b5afb3f5bbd035c8d5ef8e2ce1e51.png" title="Set pass: parola11" width="960"/>
+                <img src="scaled_ff216c3d952b663c86fafc0cd0ab1152f0650c54cb64cdf2757abcc0f00ac4e1.png" title="Set pass conf: p" width="960"/>
+                <img src="scaled_8313933d80181b336fd6b981e176d9373de66b1608e38c7333f019178fe01274.png" title="Set pass conf: p" width="960"/>
+                <img src="scaled_21256db17c8451fa1b9e1a0445d62f4d54ed6d162e733ddcf320aa8b3fc74eec.png" title="Clickcheck box" width="960"/>
+                <img src="scaled_88d9301256fb4944c133b9fef2b9b5ce41b12f21b17d1be17f763abd6a2971d9.png" title="Clickcheck box" width="960"/>
+                <img src="scaled_88e497cc9f03bcdb09a5c9fda23af0a8660323232db4988a64ffaababeb0fe6d.png" title="Submitregister button" width="960"/>
+                <img src="scaled_dabc1e7af3f566c4215c65a54a27e02868ea7ba5586639457f0a2c0fcb1d5338.png" title="Verify is not created: CREATE AN ACCOUNT" width="960"/>
+                <img src="scaled_855ac9c48eae8bb9d6047cc8aa6a5311b51db2c187cbccc201d5b2d9e8a2e1a8.png" title="Verify is not created: CREATE AN ACCOUNT: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

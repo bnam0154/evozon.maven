@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.evozonintern.tests.AddToCartTest" skipped="0" tests="1" time="23.36" timestamp="2018-08-09T09:38:15.795515900+03:00[Europe/Athens]"><testcase classname="com.evozonintern.tests.AddToCartTest" name="Add to cart items"><failure message="!!! Failed at add to cart button click !!!" type="java.lang.AssertionError">!!! Failed at add to cart button click !!!</failure><system-err>!!! Failed at add to cart button click !!!&#13;
+com.evozonintern.steps.serenity.AddToCartSteps.verifyAddToCartButton(AddToCartSteps.java:59)&#13;
+com.evozonintern.tests.AddToCartTest.addToCartItems(AddToCartTest.java:31)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+</system-err></testcase></testsuite>

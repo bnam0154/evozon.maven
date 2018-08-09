@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0e1f2e60a766dbee45cec6914e73489e2bc132a37fed7ac8d3f933182b1058b0.html">Create New Account Test</a></span>
+                > <span class="truncate-60"><a
+                    href="ca9f9e096fbfaa4e32d6b863fc40124754a9513d4cb09ad38d9266995df8f676.html">Register with invalid email credentials </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-08-2018 16:27</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create New Account Test</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register with invalid email credentials
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="611c2ff4e1808e1557b312617e794d069b19cf58bd39931785aeebe93d162ac1.png" title="Open page" width="960"/>
+                <img src="eacb6687d304c86f29e799c1006f7dc1bac10746c3b7b6e377c3ba3ae55246c6.png" title="Open page" width="960"/>
+                <img src="c8594c25ad190769b80af7c8c70c91d18d8f6bfda0532322b918caae105baa23.png" title="Set firs name: Jesse" width="960"/>
+                <img src="scaled_ed62076c297896a2abda8c398ffd258818ea7a7817b6d24f787f5ecdc5a49824.png" title="Set firs name: Jesse" width="960"/>
+                <img src="scaled_4b67c713e64ccd624a85e366a973b22c53e5ad3b74b009b4ad3b2e2a08f8fc27.png" title="Set middle name: Jo" width="960"/>
+                <img src="scaled_ff45baf7a43953afd1cd6fa964fc62cff5a914a218a7f44d1f10bac5787870c6.png" title="Set middle name: Jo" width="960"/>
+                <img src="scaled_b389541c4499762366f29c0dfa40310102043883ff08d173b44f2e69ea8d7cef.png" title="Set last name: Kunze" width="960"/>
+                <img src="scaled_8a659cd792ccb7f97e0e2835d06ad97ea79958e3ca7284aab072e7e3af0f0ca4.png" title="Set last name: Kunze" width="960"/>
+                <img src="scaled_0a85607d78426d798e2346ee128bae0f5d2d93eeb7210c029948e5a26a4d3aea.png" title="Set email: @gmail.com" width="960"/>
+                <img src="scaled_f8cd64d140120fcba588bbc41b9c832417f9200ee6861ed97afb2f3d8b754c9c.png" title="Set email: @gmail.com" width="960"/>
+                <img src="scaled_16ab8cb8d530a5d51a69ca89331e74f2eff82e68d54d97c02224eef6d52e1ae5.png" title="Set pass: parola11" width="960"/>
+                <img src="scaled_01c0638c60b4d13559aa6af5df42acd6ac90e24482d93344026ac9d880e98f10.png" title="Set pass conf: parola11" width="960"/>
+                <img src="scaled_3bb0341e8a452b9e525616abf7d2935b4383a106585d53f2bc533294b74f4814.png" title="Set pass conf: parola11" width="960"/>
+                <img src="scaled_3771589bd45a1652c3d42dd7b67ff7f5028d2ca504162b76934ab12b6a1e6a76.png" title="Clickcheck box" width="960"/>
+                <img src="scaled_01d88afe457e2a3b0f28fb84a2f761e2cfbd4f412b18e594ccc1a4426c6f973d.png" title="Clickcheck box" width="960"/>
+                <img src="scaled_f3e6728846f86805dfb85e9fcee24daf015dbb780340c1faa8809f0297bdfbf1.png" title="Submitregister button" width="960"/>
+                <img src="scaled_52f3cb376e6f38af3d6915d08f07e6bd175edc9dcd45a143f9945b14450cf68b.png" title="Verify is not created: CREATE AN ACCOUNT" width="960"/>
+                <img src="scaled_65e45f7c59f13427e1ec69481c7393f103a12c78f8771b0c31380fb5a1324422.png" title="Verify is not created: CREATE AN ACCOUNT" width="960"/>
+                <img src="eacb6687d304c86f29e799c1006f7dc1bac10746c3b7b6e377c3ba3ae55246c6.png" title="Open page" width="960"/>
+                <img src="c8594c25ad190769b80af7c8c70c91d18d8f6bfda0532322b918caae105baa23.png" title="Set firs name: Jesse" width="960"/>
+                <img src="ed62076c297896a2abda8c398ffd258818ea7a7817b6d24f787f5ecdc5a49824.png" title="Set firs name: Jesse" width="960"/>
+                <img src="4b67c713e64ccd624a85e366a973b22c53e5ad3b74b009b4ad3b2e2a08f8fc27.png" title="Set middle name: Jo" width="960"/>
+                <img src="ff45baf7a43953afd1cd6fa964fc62cff5a914a218a7f44d1f10bac5787870c6.png" title="Set middle name: Jo" width="960"/>
+                <img src="b389541c4499762366f29c0dfa40310102043883ff08d173b44f2e69ea8d7cef.png" title="Set last name: Kunze" width="960"/>
+                <img src="8a659cd792ccb7f97e0e2835d06ad97ea79958e3ca7284aab072e7e3af0f0ca4.png" title="Set last name: Kunze" width="960"/>
+                <img src="scaled_2f93cd1114745227387994533a1c62d54aa15203d58cb445a17d8dc5871da40f.png" title="Set email: ceva@.com" width="960"/>
+                <img src="scaled_321449dfb9fa153490a0693f0b8bb0cb6c11b3be78a718e5f14e5a0f67102247.png" title="Set pass: parola11" width="960"/>
+                <img src="scaled_1ae9ab9b7e4eb99060e048e2d74d6c87017dbe90ee45902efccb1385adba9b88.png" title="Set pass conf: parola11" width="960"/>
+                <img src="scaled_afd3a03ead900a21344c5a0dce172f2d701a7d4ff57add3dd24702adf5dd3396.png" title="Clickcheck box" width="960"/>
+                <img src="scaled_b6932e275b5aed5458d7f79fdec8e6333f43d52bcb7a185c6759f83a12ce46bf.png" title="Submitregister button" width="960"/>
+                <img src="scaled_e484c8760577de4bfc0c30dd070977ae29cf6073a71d383a44c05471663d57af.png" title="Verify is not created: CREATE AN ACCOUNT" width="960"/>
+                <img src="scaled_e12dc6ea8ea54118b2ce2ef619f443acbaedbf78c3dcb660455599ebd1a43658.png" title="Verify is not created: CREATE AN ACCOUNT" width="960"/>
+                <img src="eacb6687d304c86f29e799c1006f7dc1bac10746c3b7b6e377c3ba3ae55246c6.png" title="Open page" width="960"/>
+                <img src="c8594c25ad190769b80af7c8c70c91d18d8f6bfda0532322b918caae105baa23.png" title="Set firs name: Jesse" width="960"/>
+                <img src="ed62076c297896a2abda8c398ffd258818ea7a7817b6d24f787f5ecdc5a49824.png" title="Set firs name: Jesse" width="960"/>
+                <img src="4b67c713e64ccd624a85e366a973b22c53e5ad3b74b009b4ad3b2e2a08f8fc27.png" title="Set middle name: Jo" width="960"/>
+                <img src="ff45baf7a43953afd1cd6fa964fc62cff5a914a218a7f44d1f10bac5787870c6.png" title="Set middle name: Jo" width="960"/>
+                <img src="8a659cd792ccb7f97e0e2835d06ad97ea79958e3ca7284aab072e7e3af0f0ca4.png" title="Set last name: Kunze" width="960"/>
+                <img src="0a85607d78426d798e2346ee128bae0f5d2d93eeb7210c029948e5a26a4d3aea.png" title="Set email: cevagmail.com" width="960"/>
+                <img src="scaled_409d24c4d9545df06cb4874af585c30000130ae5417114b97cbbe98d1674d90f.png" title="Set email: cevagmail.com" width="960"/>
+                <img src="scaled_f172de8d32375af5a67c5defbc25117d1eb7c97719f272b14868521cd51ebec2.png" title="Set pass: parola11" width="960"/>
+                <img src="scaled_92392ec4d4bfb0ab6bea558058f60474eb1e5be1a326a94d284cb7d4a81e0c0f.png" title="Set pass conf: parola11" width="960"/>
+                <img src="scaled_d6176cfb6a5bfb9adf95cde830e34321af814f19aa16d6ff67ca5ce60446dee2.png" title="Clickcheck box" width="960"/>
+                <img src="scaled_8d96fd46985871d76e75578a3640687d3aabcc785e4f44bca1ce08e80f0afdf7.png" title="Clickcheck box" width="960"/>
+                <img src="scaled_d0efc2ecc8a655a4e8b4f1341770d6c5f6e758be54feeacea43840368d1b26bf.png" title="Submitregister button" width="960"/>
+                <img src="scaled_26b704fb637890e60c6febc13c557023979691b184eda0fc1ab83388d569731d.png" title="Verify is not created: CREATE AN ACCOUNT" width="960"/>
+                <img src="scaled_77915b0d8cbb68cc3a19e006bf5e9dbbce7efa66f55e22befe8052ee582dbb7b.png" title="Verify is not created: CREATE AN ACCOUNT" width="960"/>
+                <img src="eacb6687d304c86f29e799c1006f7dc1bac10746c3b7b6e377c3ba3ae55246c6.png" title="Open page" width="960"/>
+                <img src="c8594c25ad190769b80af7c8c70c91d18d8f6bfda0532322b918caae105baa23.png" title="Set firs name: Jesse" width="960"/>
+                <img src="ed62076c297896a2abda8c398ffd258818ea7a7817b6d24f787f5ecdc5a49824.png" title="Set firs name: Jesse" width="960"/>
+                <img src="4b67c713e64ccd624a85e366a973b22c53e5ad3b74b009b4ad3b2e2a08f8fc27.png" title="Set middle name: Jo" width="960"/>
+                <img src="ff45baf7a43953afd1cd6fa964fc62cff5a914a218a7f44d1f10bac5787870c6.png" title="Set middle name: Jo" width="960"/>
+                <img src="8a659cd792ccb7f97e0e2835d06ad97ea79958e3ca7284aab072e7e3af0f0ca4.png" title="Set last name: Kunze" width="960"/>
+                <img src="0a85607d78426d798e2346ee128bae0f5d2d93eeb7210c029948e5a26a4d3aea.png" title="Set email: ceva@gmailcom" width="960"/>
+                <img src="scaled_abc304278cb47e80502b5adf00fe2bf06c3937b7529422d4b3bf3c3cc6cca3a9.png" title="Set email: ceva@gmailcom" width="960"/>
+                <img src="scaled_237e08ada381c73716b139f3716ce5e698fb1c3fcd04637db565e68b52e325ea.png" title="Set pass: parola11" width="960"/>
+                <img src="scaled_8ea87c6d8ea173ed07357b5983887e51177170ac4221daacc0419ffc7918b930.png" title="Set pass conf: parola11" width="960"/>
+                <img src="scaled_0044d5812b1c853a2ec27c343decd22a5ea701117a3fb61149a5a2b75242c89e.png" title="Set pass conf: parola11" width="960"/>
+                <img src="scaled_cc1a5821a98cf178cb76b5c5dcc4c7c67d3cca87a1d433f4c10bdcbf6497575c.png" title="Clickcheck box" width="960"/>
+                <img src="scaled_7f6f979798ba96de9ae09fb597292cd42260eff2aaf45680d3a0239e4899237e.png" title="Submitregister button" width="960"/>
+                <img src="scaled_2287079f06fd5e615db0458a0f1e9f8ff3ba3b993edc13fa7ba2c0855480129e.png" title="Verify is not created: CREATE AN ACCOUNT" width="960"/>
+                <img src="scaled_c9c186ced38f7d522b58f83f1809499234e4af4418d91e5a9063a93ca0fb2990.png" title="Verify is not created: CREATE AN ACCOUNT" width="960"/>
+                <img src="eacb6687d304c86f29e799c1006f7dc1bac10746c3b7b6e377c3ba3ae55246c6.png" title="Open page" width="960"/>
+                <img src="c8594c25ad190769b80af7c8c70c91d18d8f6bfda0532322b918caae105baa23.png" title="Set firs name: Jesse" width="960"/>
+                <img src="ed62076c297896a2abda8c398ffd258818ea7a7817b6d24f787f5ecdc5a49824.png" title="Set firs name: Jesse" width="960"/>
+                <img src="ff45baf7a43953afd1cd6fa964fc62cff5a914a218a7f44d1f10bac5787870c6.png" title="Set middle name: Jo" width="960"/>
+                <img src="b389541c4499762366f29c0dfa40310102043883ff08d173b44f2e69ea8d7cef.png" title="Set last name: Kunze" width="960"/>
+                <img src="8a659cd792ccb7f97e0e2835d06ad97ea79958e3ca7284aab072e7e3af0f0ca4.png" title="Set last name: Kunze" width="960"/>
+                <img src="0a85607d78426d798e2346ee128bae0f5d2d93eeb7210c029948e5a26a4d3aea.png" title="Set email: ceva())))@gmail.com" width="960"/>
+                <img src="scaled_c029fec8b6f0c14bc22333c7ed3648e4a489add4d5ce62e026e50822282824a9.png" title="Set email: ceva())))@gmail.com" width="960"/>
+                <img src="scaled_492d5770542e7dd7e2e1252a6d4b317dfccf1227fae2054f30a926d144a5f693.png" title="Set pass: parola11" width="960"/>
+                <img src="scaled_146d9da8da38564efebcd8c7055ab518b4b452ce9976a021dad348cf69588534.png" title="Set pass: parola11" width="960"/>
+                <img src="scaled_4c5c42283e3e980fca95380924c59e2da1ba4b4990fd246b104249a6d683e5c9.png" title="Set pass conf: parola11" width="960"/>
+                <img src="scaled_cdf34d3b42128b7f3f6fdcd702c836041b7d7a04f198e608d0c97e3e0a131e06.png" title="Set pass conf: parola11" width="960"/>
+                <img src="scaled_045fef920fa370d12284ba93fcda345cd69fc6900552882b31a6d2d6ad2a4e4a.png" title="Clickcheck box" width="960"/>
+                <img src="scaled_c3537254c882a7dd027e2a6301727ddd29a91b755135484087b4771b5dd2f582.png" title="Submitregister button" width="960"/>
+                <img src="scaled_51390a14617a7694298e9096c2519067876c1c81d97ac5ff079aa92698358ad0.png" title="Verify is not created: CREATE AN ACCOUNT" width="960"/>
+                <img src="scaled_9e64837f50857a1945872aa3f9d23e59fc72b856842ad57b85416d838a87885b.png" title="Verify is not created: CREATE AN ACCOUNT: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>
