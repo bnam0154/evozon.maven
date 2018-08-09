@@ -23,6 +23,6 @@ public class ProductsListPage extends BasePage {
     public void openPageProduct(String productName) {
         getElement(productName).findElement(By.cssSelector(".product-name a")).click();
     }
-
+//
 
 }
