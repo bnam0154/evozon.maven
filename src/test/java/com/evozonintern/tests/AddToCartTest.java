@@ -30,7 +30,7 @@ public class AddToCartTest extends BaseTest {
         addToCartSteps.clickAddButton();
         //addToCartSteps.verifyAddToCartButton(); // < -- verify
         addToCartSteps.verifyAddToCartButton(); // < -- verify
-        //todo norbert: need to verify add to cart more accurately
+
 
 
     }

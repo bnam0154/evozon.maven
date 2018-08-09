@@ -2,7 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f65d3463-e6e2-496b-84bb-06c15647feec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/evozonintern/pages/ProductsListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/evozonintern/pages/ProductsListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/evozonintern/pages/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/SearchSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/evozonintern/tests/SearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0b156a5e9a8d9ba9cf292883f18421ea3260f843c6e94b3d3d7d9d1e34712f51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0d99f280a9a019cac88271c359afc26043220378ed72a6d288556149c1e9edc9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0d99f280a9a019cac88271c359afc26043220378ed72a6d288556149c1e9edc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0d99f280a9a019cac88271c359afc26043220378ed72a6d288556149c1e9edc9_screenshots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2a39ff9466c1df113c4a5a581a7b0ecb82546e1eaa79e8722618e912541ffd0c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2fc87a00dda235d4d96dec2231d60f9cdd59832e672e81bf72e536f2ab548d8a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3ce1d9dfe3654da5d7f908c5042114012b95551e845300342470262c13ad67d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3ce1d9dfe3654da5d7f908c5042114012b95551e845300342470262c13ad67d1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3ce1d9dfe3654da5d7f908c5042114012b95551e845300342470262c13ad67d1_screenshots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/42ea645e33af2e00c8f8fdd8a2a2dc871d76f0f6185275926756e5be5f0e48c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/46e0e83b7bbfdd730201bc216d26446347c6faae07cd1aa35fc818c70691f37e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5af183d89ba40061031dd1f262bcee666d3d069ec33d87e971d326ab59275fa1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5af183d89ba40061031dd1f262bcee666d3d069ec33d87e971d326ab59275fa1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5af183d89ba40061031dd1f262bcee666d3d069ec33d87e971d326ab59275fa1_screenshots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5bbf3a6d35d75f6d929d1a2d61a568f9b27b98ad3a6862064b0048ea6f87a234.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/704ca5dd999e1adb28120e87f5a3d1abb195b85c5d6a9a720b80085d97b56cb5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/84326077ec7c0846f368bc66e80af7ba84fa6ae1be56b4a73a2ea94608488087.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/84326077ec7c0846f368bc66e80af7ba84fa6ae1be56b4a73a2ea94608488087.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/84326077ec7c0846f368bc66e80af7ba84fa6ae1be56b4a73a2ea94608488087_screenshots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8b18336d238b3d5f0e5197a20420950f5a1860db7d6c4db531b8b617dbe17b34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-84326077ec7c0846f368bc66e80af7ba84fa6ae1be56b4a73a2ea94608488087.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a91c70e07ca8268caaa32e1f31d430948cef0b61a269e28ec03c78ec0198ace2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/af38f3413956ef8a3303e53b697b241ba0eddb4227b12d5dfb6bd5eca4cde5f0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d1519f8ee2b582cbdaf55d0efb0d64f7431c2459ed85616a8c578d9b3bb59ce5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d7e85a6bdd16e10432d07a23d9ce10e0d29a1da710e5820d356dab17dded7f1c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f074853512fa0863a168117cbe8c57c99263f6550f9911470a1f78b7a129e5a4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f9ddda5dc0a0f093b853515230d096a8c4567f2d6c6b45c182d43cc6352dacc8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/fc643572e3066024281a3f7abf20857434e57fec909e2f73c43dea548e2d9860.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource10084919868763681366.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource12956146743582672681.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource13588380469012761260.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource18224193001004876449.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource3943683621362269023.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_0b156a5e9a8d9ba9cf292883f18421ea3260f843c6e94b3d3d7d9d1e34712f51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_2a39ff9466c1df113c4a5a581a7b0ecb82546e1eaa79e8722618e912541ffd0c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_2fc87a00dda235d4d96dec2231d60f9cdd59832e672e81bf72e536f2ab548d8a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_42ea645e33af2e00c8f8fdd8a2a2dc871d76f0f6185275926756e5be5f0e48c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_46e0e83b7bbfdd730201bc216d26446347c6faae07cd1aa35fc818c70691f37e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_5bbf3a6d35d75f6d929d1a2d61a568f9b27b98ad3a6862064b0048ea6f87a234.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_704ca5dd999e1adb28120e87f5a3d1abb195b85c5d6a9a720b80085d97b56cb5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_8b18336d238b3d5f0e5197a20420950f5a1860db7d6c4db531b8b617dbe17b34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_a91c70e07ca8268caaa32e1f31d430948cef0b61a269e28ec03c78ec0198ace2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_af38f3413956ef8a3303e53b697b241ba0eddb4227b12d5dfb6bd5eca4cde5f0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_d1519f8ee2b582cbdaf55d0efb0d64f7431c2459ed85616a8c578d9b3bb59ce5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_f074853512fa0863a168117cbe8c57c99263f6550f9911470a1f78b7a129e5a4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_f9ddda5dc0a0f093b853515230d096a8c4567f2d6c6b45c182d43cc6352dacc8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_fc643572e3066024281a3f7abf20857434e57fec909e2f73c43dea548e2d9860.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/27dff1f58602cbc20c25ee8a2e50a0d30f42cdf113b699afa2f41b2909ed9bfb.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/27dff1f58602cbc20c25ee8a2e50a0d30f42cdf113b699afa2f41b2909ed9bfb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/27dff1f58602cbc20c25ee8a2e50a0d30f42cdf113b699afa2f41b2909ed9bfb.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/27dff1f58602cbc20c25ee8a2e50a0d30f42cdf113b699afa2f41b2909ed9bfb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/27dff1f58602cbc20c25ee8a2e50a0d30f42cdf113b699afa2f41b2909ed9bfb_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/27dff1f58602cbc20c25ee8a2e50a0d30f42cdf113b699afa2f41b2909ed9bfb_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6e56ecb72fe9b2d95d3c73c299c9f93644331a50d449ccb18782ffa274fec45c.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6e56ecb72fe9b2d95d3c73c299c9f93644331a50d449ccb18782ffa274fec45c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6e56ecb72fe9b2d95d3c73c299c9f93644331a50d449ccb18782ffa274fec45c.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6e56ecb72fe9b2d95d3c73c299c9f93644331a50d449ccb18782ffa274fec45c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6e56ecb72fe9b2d95d3c73c299c9f93644331a50d449ccb18782ffa274fec45c_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6e56ecb72fe9b2d95d3c73c299c9f93644331a50d449ccb18782ffa274fec45c_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/760785b8c9381a1335f0c9ba26ff9d26d2409f8d0bf19301b34e87d17d5b6b86.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/760785b8c9381a1335f0c9ba26ff9d26d2409f8d0bf19301b34e87d17d5b6b86.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/760785b8c9381a1335f0c9ba26ff9d26d2409f8d0bf19301b34e87d17d5b6b86.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/760785b8c9381a1335f0c9ba26ff9d26d2409f8d0bf19301b34e87d17d5b6b86.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/760785b8c9381a1335f0c9ba26ff9d26d2409f8d0bf19301b34e87d17d5b6b86_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/760785b8c9381a1335f0c9ba26ff9d26d2409f8d0bf19301b34e87d17d5b6b86_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-27dff1f58602cbc20c25ee8a2e50a0d30f42cdf113b699afa2f41b2909ed9bfb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-27dff1f58602cbc20c25ee8a2e50a0d30f42cdf113b699afa2f41b2909ed9bfb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6e56ecb72fe9b2d95d3c73c299c9f93644331a50d449ccb18782ffa274fec45c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6e56ecb72fe9b2d95d3c73c299c9f93644331a50d449ccb18782ffa274fec45c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-760785b8c9381a1335f0c9ba26ff9d26d2409f8d0bf19301b34e87d17d5b6b86.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-760785b8c9381a1335f0c9ba26ff9d26d2409f8d0bf19301b34e87d17d5b6b86.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,24 +85,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="10" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="95" />
-          <entry key="txt" value="30" />
+          <entry key="java" value="223" />
+          <entry key="txt" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="95" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="JAVA" value="223" />
+          <entry key="PLAIN_TEXT" value="60" />
         </counts>
       </usages-collector>
     </session>
@@ -46,28 +112,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/CreateNewAccountTestUsingDDT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="406" column="12" lean-forward="true" selection-start-line="406" selection-start-column="12" selection-end-line="406" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="110">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -82,64 +130,93 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/SearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="154">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/AddToCartSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/SearchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/CreateNewAccountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="274" column="38" selection-start-line="274" selection-start-column="38" selection-end-line="274" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/CreateNewAccountSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#3043#3044#0" expanded="true" />
-                <element signature="e#3110#3111#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/EndUserSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/LoginUserSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/pages/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/utils/Constants.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/pages/ProductsListPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="88">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/utils/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,8 +224,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/evozonintern/pages/ProductsListPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/evozonintern/tests/LoginTestUsingDDT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/evozonintern/tests/SearchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/evozonintern/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/SearchSteps.java" />
       </list>
     </option>
   </component>
@@ -286,6 +367,11 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="TestDataFiles" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="maddison" type="b2602c69:ProjectViewProjectNode" />
+              <item name="evozon.maven" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -295,7 +381,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533812541450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533817484895" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -309,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest">
+  <component name="RunManager" selected="JUnit.LoginTestUsingDDT">
     <configuration name="AddToCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maddison" />
       <extension name="coverage">
@@ -320,6 +406,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.evozonintern.tests" />
       <option name="MAIN_CLASS_NAME" value="com.evozonintern.tests.AddToCartTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddToCartTest.addToCartItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maddison" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.evozonintern.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.evozonintern.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.evozonintern.tests.AddToCartTest" />
+      <option name="METHOD_NAME" value="addToCartItems" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -338,38 +440,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateNewAccountTestUsingDDT.registerWithValidCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maddison" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.evozonintern.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.evozonintern.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.evozonintern.tests.CreateNewAccountTestUsingDDT" />
-      <option name="METHOD_NAME" value="registerWithValidCredentials" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateNewAccountTest.registerWithBlankCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maddison" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.evozonintern.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.evozonintern.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.evozonintern.tests.CreateNewAccountTest" />
-      <option name="METHOD_NAME" value="registerWithBlankCredentials" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maddison" />
       <extension name="coverage">
@@ -384,20 +454,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTestUsingDDT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maddison" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.evozonintern.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.evozonintern.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.evozonintern.tests.LoginTestUsingDDT" />
+      <option name="METHOD_NAME" value="" />
+      <option name="VM_PARAMETERS" value="--add-modules java.se.ee" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.AddToCartTest" />
       <item itemvalue="JUnit.CreateNewAccountTestUsingDDT" />
-      <item itemvalue="JUnit.CreateNewAccountTest.registerWithBlankCredentials" />
-      <item itemvalue="JUnit.CreateNewAccountTestUsingDDT.registerWithValidCredentials" />
       <item itemvalue="JUnit.LoginTest" />
+      <item itemvalue="JUnit.AddToCartTest.addToCartItems" />
+      <item itemvalue="JUnit.LoginTestUsingDDT" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTestUsingDDT" />
+        <item itemvalue="JUnit.AddToCartTest.addToCartItems" />
+        <item itemvalue="JUnit.AddToCartTest" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.CreateNewAccountTestUsingDDT" />
-        <item itemvalue="JUnit.CreateNewAccountTestUsingDDT.registerWithValidCredentials" />
-        <item itemvalue="JUnit.CreateNewAccountTest.registerWithBlankCredentials" />
-        <item itemvalue="JUnit.AddToCartTest" />
       </list>
     </recent_temporary>
   </component>
@@ -419,19 +506,52 @@
       <option name="project" value="LOCAL" />
       <updated>1533795638342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="!!! important for update xml suit !!!">
+      <created>1533812602372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533812602372</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddToCartTest - 2018.08.09 at 09h 38m 42s.xml">
+    <history-entry file="LoginTest - 2018.08.09 at 14h 02m 44s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddToCartTest - 2018.08.09 at 14h 05m 57s.xml">
       <configuration name="AddToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddToCartTest - 2018.08.09 at 14h 06m 35s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddToCartTest - 2018.08.09 at 14h 07m 19s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddToCartTest - 2018.08.09 at 14h 07m 49s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddToCartTest - 2018.08.09 at 14h 08m 24s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddToCartTest - 2018.08.09 at 14h 09m 19s.xml">
+      <configuration name="AddToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddToCartTest_addToCartItems - 2018.08.09 at 14h 11m 51s.xml">
+      <configuration name="AddToCartTest.addToCartItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTestUsingDDT - 2018.08.09 at 14h 17m 10s.xml">
+      <configuration name="LoginTestUsingDDT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTestUsingDDT - 2018.08.09 at 14h 31m 48s.xml">
+      <configuration name="LoginTestUsingDDT" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -440,15 +560,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3557484" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.13991323" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.13991323" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.12906724" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -464,23 +584,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update Logintest" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Logintest" />
+    <MESSAGE value="!!! important for update xml suit !!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="!!! important for update xml suit !!!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java</url>
+          <line>15</line>
+          <properties field="addToCartSteps" class="com.evozonintern.tests.AddToCartTest" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/CreateNewAccountTestUsingDDT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/pages/AccountPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -488,10 +623,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/CreateNewAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9482">
+          <caret line="431" column="40" selection-start-line="431" selection-start-column="40" selection-end-line="431" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/CreateNewAccountTestUsingDDT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/AddToCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/AddToCartSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/LoginTestUsingDDT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/tests/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/CreateNewAccountSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+          <folding>
+            <element signature="e#3043#3044#0" expanded="true" />
+            <element signature="e#3110#3111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/utils/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/pages/ProductsListPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        <state relative-caret-position="88">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/LoginUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/SearchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evozonintern/steps/serenity/EndUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
