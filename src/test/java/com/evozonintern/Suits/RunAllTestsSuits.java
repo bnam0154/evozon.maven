@@ -11,7 +11,8 @@ import org.junit.runners.Suite;
         CreateNewAccountTest.class,
         CreateNewAccountTestUsingDDT.class,
         LoginTest.class,
-        LoginTestUsingDDT.class
+        LoginTestUsingDDT.class,
+        SearchTest.class
 })
 public class RunAllTestsSuits {
 

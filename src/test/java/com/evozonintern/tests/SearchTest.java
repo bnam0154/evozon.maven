@@ -29,6 +29,7 @@ public class SearchTest extends BaseTest {
         loginUserSteps.validateSuccesfullLogin();
         searchSteps.searchForItem(item);
         searchSteps.veryfySearch(item);
+
     }
 
 }

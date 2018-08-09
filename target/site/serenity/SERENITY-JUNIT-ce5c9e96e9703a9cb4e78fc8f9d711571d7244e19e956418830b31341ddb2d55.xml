@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.evozonintern.tests.CreateNewAccountTest" skipped="0" tests="1" time="18.55" timestamp="2018-08-08T16:17:16.040684800+03:00[Europe/Athens]"><testcase classname="com.evozonintern.tests.CreateNewAccountTest" name="Register with valid credentials"/></testsuite>

@@ -34,7 +34,6 @@ public class AccountPage extends PageObject {
         return welcomeMessageParagraph.getText().contains(user.getFirstname());
     }
 
-
     public boolean isNotLoggedIn(String username) {
         return registerpage.getText().contains(username);
     }
