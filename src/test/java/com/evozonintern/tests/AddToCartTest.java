@@ -29,7 +29,7 @@ public class AddToCartTest extends BaseTest {
         addToCartSteps.openProduct("Stretch Cotton Blazer");
         addToCartSteps.clickAddButton();
         addToCartSteps.verifyAddToCartButton(); // < -- verify
-
+        //todo norbert: need to verify add to cart more accurately
 
     }
 
