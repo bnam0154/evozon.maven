@@ -7,12 +7,15 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
+
         AddToCartTest.class,
         CreateNewAccountTest.class,
         CreateNewAccountTestUsingDDT.class,
         LoginTest.class,
         LoginTestUsingDDT.class,
-        SearchTest.class
+        SearchTest.class,
+        SearchTestUsingDDT.class
+        
 })
 public class RunAllTestsSuits {
 
