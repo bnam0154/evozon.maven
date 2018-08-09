@@ -27,7 +27,7 @@ public class CreateNewAccountTestUsingDDT extends BaseTest {
     public void registerWithValidCredentials () {
 
         //deleteusersSteps.openPage();
-
+        //todo norbert: implement clean up after creating accounts with csv users
 
         createNewAccountSteps.openPage();
         createNewAccountSteps.setFirsName(firstName);
@@ -39,7 +39,7 @@ public class CreateNewAccountTestUsingDDT extends BaseTest {
         createNewAccountSteps.clickcheckBox();
         createNewAccountSteps.submitregisterButton();
 
-        //createNewAccountSteps.verifyIsCreated(firstName); todo verify uder reconstruction :)
+        //createNewAccountSteps.verifyIsCreated(firstName); todo norbert: verify uder reconstruction :)
     }
 
 }
